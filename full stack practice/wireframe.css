@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+    
+    border: solid 3px red;
+    border-bottom: 1px solid red;
+    height: 150px;
+    font-size: 0px;
+}
+.col {
+    border: 2px solid green;
+    border-right:3px solid green;
+    border-top:3px solid green;
+    height: 100%;
+    width: 33.3333%;
+    display: inline-block;
+}
+.col1
+{
+    border: solid 2px blue;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.row1
+{
+    border:solid 2px blue;
+    height: 50%;
+    width: 100%;
+}
+.row2
+{
+    border:solid 2px blue;
+    height: 50%;
+    width: 100%;
+}
+.col2
+{
+    border: solid 5px yellow;
+    height: 100%;
+    width: 50%;
+    float: right;
+}

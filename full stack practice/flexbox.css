@@ -1,0 +1,16 @@
+.box
+{
+    border: dotted 3px yellow;
+    height: 210px;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 0px;
+}
+.box > div
+{
+    border: solid 2px red;
+    height:20px ;
+    width: 100px;
+    border-radius: 10px;
+}
